@@ -3,7 +3,7 @@
 <body>
 
 <?php
-//PHP es case Sansitivity es decir que importa si se escribe en mayusculas y minusculas
+//PHP es case sensitivity es decir que importa si se escribe en mayusculas y minusculas
 
 ECHO "Hello World!<br>";
 echo "Hello World!<br>";

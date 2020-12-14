@@ -42,8 +42,16 @@
         echo $x + $z;
         echo $x + $y;
 
+        /*
+        PHP es un lenguaje de tipo flexible
+        No tuvimos que decirle que tipo de datos son las variables
+        PHP asocia automaticamente el tipo de datos de la variable,
+        dependiendo de su valor
+        Como los datos no se establecen al principio se pueden hacer 
+        cosas como agregar una cadena a un numero entero sin causar un error
+        */
+
     ?>
 
 </body>
-
 </html>

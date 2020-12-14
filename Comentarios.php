@@ -17,6 +17,7 @@
 
         /*Tambien se pueden usar comentarios para dejar fuera partes de las lineas de codigo */
         $x = 5 /* + 15*/ + 5;
+        echo $x;
 
     ?>
 

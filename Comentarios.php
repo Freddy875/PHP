@@ -7,7 +7,7 @@
 
         #Esto tambien es un comentario en una sola linea
 
-        echo "Hola mundo"
+        echo "Hola mundo";
 
         /* 
         Esto es un bloque de comentarios
@@ -16,7 +16,7 @@
         */
 
         /*Tambien se pueden usar comentarios para dejar fuera partes de las lineas de codigo */
-        $x = 5 /* + 15*/ + 5;
+        $x = 5 /* + 15 */ + 5;
         echo $x;
 
     ?>

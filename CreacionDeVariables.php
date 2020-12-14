@@ -31,16 +31,16 @@
         */
 
         /*Imprimir en pantalla el contenido de una variable */
-        echo $txt1."\n";
-        echo $x."\n";
-        echo $y."\n";
-        echo "I love $txt2\n";
+        echo $txt1."</br>";
+        echo $x."</br>";
+        echo $y."</br>";
+        echo "I love $txt2</br>";
         /*Otra forma de impirmir en pantalla el contenido de una varible */
-        echo "I love ".$txt2."!\n";
+        echo "I love ".$txt2."!</br>";
 
         /*Tambien se pueden mostrar el resultado de operaciones */
-        echo $x + $z."\n";
-        echo $x + $y."\n";
+        echo $x + $z."</br>";
+        echo $x + $y."</br>";
 
         /*
         PHP es un lenguaje de tipo flexible

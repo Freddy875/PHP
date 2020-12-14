@@ -66,7 +66,7 @@
     }
     myTest3();
 
-    echo $y; // Salida es 15
+    echo $y."</br>"; // Salida es 15
 
     /*
     PHP tambien almacena todas las variables globales en una llamada de matriz
@@ -83,7 +83,7 @@
     }
     myTest4();
 
-    echo $b; // Salida es 15
+    echo $b."</br>"; // Salida es 15
 
     /*
     Palabra clave estatica
@@ -97,12 +97,11 @@
     function myTest5(){
 
         static $iContador = 0;
-        echo $iContador;
+        echo $iContador."</br>";
         $iContador++;
 
     }
     myTest5();
-
     myTest5();
     myTest5();
     myTest5();

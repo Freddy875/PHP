@@ -18,13 +18,13 @@
 
         var_dump(is_int(varX));
 
-        echo "<br>"
+        echo "<br>";
 
         echo $varX."<br>";
 
         var_dump(is_integer(varX));
         
-        echo "<br>"
+        echo "<br>";
 
         $varX = 59.85;
 
@@ -32,7 +32,7 @@
 
         var_dump(is_int(varX));
 
-        echo "<br>"
+        echo "<br>";
 
         /*
         Tambiene tenemos funciones para verificar
@@ -98,16 +98,39 @@
         */
 
         $variable3 = 5895;
+        echo $variable3."<br>";
         var_dump(is_numeric($variable3));
 
         $variable3 = "5895";
+        echo $variable3."<br>";
         var_dump(is_numeric($variable3));
 
         $variable3 = "58.95" + 100;
+        echo $variable3."<br>";
         var_dump(is_numeric($variable3));
 
         $variable3 = "Hola";
+        echo $variable3."<br>";
         var_dump(is_numeric($variable3));
+
+        /*
+        Convertir cadenas y flotantes a entero
+        */
+
+        /*
+        Castear de flotante a entero
+        */
+        $variable4 = 23456.789;
+        $int_cast = (int)$variable4;
+        echo $int_cast; 
+
+        /*
+        Castear una cadena a entero
+        */
+        $variable4 = "23456.789";
+        $int_cast = (int)$variable4;
+        echo $int_cast;
+        
 
     ?>
 

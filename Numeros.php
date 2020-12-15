@@ -3,7 +3,7 @@
 <body>
 
     <?php
- 
+
         /*
         PHP tiene las siguientes funciones para verificar
         si el tipo de una variable es entero
@@ -14,15 +14,21 @@
 
         $varX = 5985;
 
+        echo "Es un entero"."<br>";
+
         echo $varX."<br>";
 
-        var_dump(is_int(varX));
+        var_dump(is_int($varX));
+
+        echo "<br>".
+        "------------------------------------------------------------------------------------"
+        ."<br>";
 
         echo "<br>";
 
         echo $varX."<br>";
 
-        var_dump(is_integer(varX));
+        var_dump(is_integer($varX));
         
         echo "<br>";
 
@@ -30,9 +36,14 @@
 
         echo $varX."<br>";
 
-        var_dump(is_int(varX));
+        var_dump(is_int($varX));
 
         echo "<br>";
+
+        echo "<br>".
+        "------------------------------------------------------------------------------------"
+        ."<br>";
+
 
         /*
         Tambiene tenemos funciones para verificar
@@ -43,13 +54,19 @@
         is_double()
         */
 
+        echo "Es un real"."<br>";
+
         $varY = 10.365;
 
         echo $varY."<br>";
 
-        var_dump(is_float(varY));
+        var_dump(is_float($varY));
 
         echo "<br>";
+
+        echo "<br>".
+        "------------------------------------------------------------------------------------"
+        ."<br>";
 
         /*
         Tambnien se tiene otra funcion para verificar 
@@ -57,6 +74,8 @@
         is_finite()
         is-infinite()
         */
+
+        echo "Es infinito o finito"."<br>";
 
         $variable1 = 1.9e411;
         
@@ -70,6 +89,10 @@
 
         echo "<br>";
 
+        echo "<br>".
+        "------------------------------------------------------------------------------------"
+        ."<br>";
+
         /*
         Funcion NaN
         son las siglas en ingles de Not a Number
@@ -78,9 +101,11 @@
         verifica si un valor es o no un numero
         */
 
+        echo "Es un numero o no es un numero"."<br>";
+
         $variable2 = acos(8);
 
-        echo $variable1."<br>";
+        echo $variable2."<br>";
 
         var_dump($variable2);
 
@@ -90,12 +115,18 @@
 
         echo "<br>";
 
+        echo "<br>".
+        "------------------------------------------------------------------------------------"
+        ."<br>";
+
         /*
-        is-numeric es una funcion que se utiliza para encontrar 
+        is_numeric es una funcion que se utiliza para encontrar 
         si una variable es numerica.
         Devuelve true si la variable es numerica o una cadena numerica
         o devulve false en caso contrario
         */
+
+        echo "Es un numero o no es un numero"."<br>";
 
         $variable3 = 5895;
         echo $variable3."<br>";
@@ -113,6 +144,10 @@
         echo $variable3."<br>";
         var_dump(is_numeric($variable3));
 
+        echo "<br>".
+        "------------------------------------------------------------------------------------"
+        ."<br>";
+
         /*
         Convertir cadenas y flotantes a entero
         */
@@ -120,17 +155,26 @@
         /*
         Castear de flotante a entero
         */
+
+        echo "Castear un flotante a un entero"."<br>";
         $variable4 = 23456.789;
         $int_cast = (int)$variable4;
         echo $int_cast; 
 
+        echo "<br>";
+
         /*
         Castear una cadena a entero
         */
+
+        echo "Castear una cadena a entero"."<br>";
         $variable4 = "23456.789";
         $int_cast = (int)$variable4;
         echo $int_cast;
-        
+
+        echo "<br>".
+        "------------------------------------------------------------------------------------"
+        ."<br>";
 
     ?>
 
